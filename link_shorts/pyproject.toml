@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "link-shorts"
+version = "0.1.0"
+description = ""
+authors = ["Nikonov Ivan <nikon2283@gmail.com>"]
+readme = "README.md"
+packages = [{include = "link_shorts"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.20.0"
+fastapi = "^0.87.0"
+pathlib = "^1.0.1"
+loguru = "^0.6.0"
+pydantic = "^1.10.2"
+emailvalidator = "^0.3"
+validator = "^0.7.1"
+email-validator = "^1.3.0"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
